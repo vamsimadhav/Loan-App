@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loan_process"
+    app:startDestination="@id/fragmentDetailsName">
+
+    <fragment
+        android:id="@+id/fragmentDetailsName"
+        android:name="com.example.loanapp.bank_details.FragmentDetailsName"
+        android:label="fragment_bank_details_name"
+        tools:layout="@layout/fragment_bank_details_name" >
+        <action
+            android:id="@+id/action_bankDetailsName_to_fragmentDetailsDOB"
+            app:destination="@id/fragmentDetailsDOB" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentDetailsDOB"
+        android:name="com.example.loanapp.bank_details.FragmentDetailsDOB"
+        android:label="fragment_bank_details_dob"
+        tools:layout="@layout/fragment_bank_details_dob" >
+        <action
+            android:id="@+id/action_fragmentDetailsDOB_to_fragmentDetailsEmployment"
+            app:destination="@id/fragmentDetailsEmployment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentDetailsEmployment"
+        android:name="com.example.loanapp.bank_details.FragmentDetailsEmployment"
+        android:label="fragment_bank_details_employment"
+        tools:layout="@layout/fragment_bank_details_employment" >
+        <action
+            android:id="@+id/action_fragmentDetailsEmployment_to_fragmentDetailsIncome"
+            app:destination="@id/fragmentDetailsIncome" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentDetailsIncome"
+        android:name="com.example.loanapp.bank_details.FragmentDetailsIncome"
+        android:label="fragment_bank_details_income"
+        tools:layout="@layout/fragment_bank_details_income" />
+</navigation>

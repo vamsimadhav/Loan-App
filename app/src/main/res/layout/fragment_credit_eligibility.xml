@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/loan_img" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="Aapko 12000 tak ke rashi ka loan mil saktha hai, jo aapko 6 mahine ke andhar wapas kar sakte hain. "
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/otpButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="Loan lein"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        app:backgroundTint="#6558f5"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/otpButton2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:elevation="0dp"
+        android:gravity="center"
+        android:text="Abhi loan Nhi chahye"
+        android:textAllCaps="false"
+        android:textColor="#6558f5"
+        android:textSize="20dp"
+        app:backgroundTint="@android:color/transparent"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/otpButton"
+        app:layout_constraintStart_toStartOf="@+id/otpButton"
+        app:layout_constraintTop_toBottomOf="@+id/otpButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

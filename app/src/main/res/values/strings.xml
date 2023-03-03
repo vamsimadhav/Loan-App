@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LoanApp</string>
+    <string name="verifyNumberString">Apna Mobile Number Verify Karein</string>
+    <string name="getOtpString">OTP Payein</string>
+    <string name="getPrivacyPolicy">Terms of User &amp; Privacy Policy ko manthe hain</string>
+    <string name="getVerifyOtpString">Verify Karein</string>
+    <string name="goToNextPageString">Aage badhein</string>
+    <string name="getYourNameString">Apna naam batayein</string>
+    <string name="getYourBirthdayString">Apna janam dinn batayein</string>
+    <string name="getEmploymentDetialsString">Aap kitne ghar me kaa karte hain</string>
+    <string name="getMonthlyIncomeString">Aapki mahine ki kamayi</string>
+    <string name="getBankVerifiedString">Aapka account Verify ho gya!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
